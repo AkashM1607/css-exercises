@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+/* Descendant combinator parent child class mit leertaste getrennt */
+/* Ohne leertaste wäre chaining selectors wenn eine element 2 Classes hat */
+.container .text{
+    background-color:yellow;
+    color:red;
+    font-size:20px;
+    text-align:center;
+}
+
+/* Wenn man 2 types oder mischung aus type und classes machen will */
+/* gleiche syntax ensprechend ob typ oder class */
+/* p div {} oder div .text oder p .container usw */
