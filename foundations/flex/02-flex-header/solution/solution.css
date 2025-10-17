@@ -39,3 +39,7 @@ ul {
   padding: 0;
   gap: 8px;
 }
+
+.left-links {
+  border:1px solid black;
+}
